@@ -1,0 +1,7 @@
+*~
+test/*
+!test/init.sh
+!test/make_debug.sh
+!test/make_release.sh
+!test/resources
+!test/test.cpp
