@@ -27,7 +27,7 @@ cd /var/work/test
 
 ## Usage
 
-### Run app on a container
+### Run app on container
 
 If you want to run a Siv3D application on a container, check `docker-run.sh`. In order to use audio/graphics devices in the container, some options are needed for `docker run`.
 
