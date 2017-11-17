@@ -12,13 +12,13 @@
 I tested on Ubuntu 17.04 with PulseAudio, ALSA and X11.
 
 * Docker
-* PulseAudio & ALSA のような音響系
+* PulseAudio & ALSA のような音響系 (大抵デフォルトでインストールされています)
 * X11 (Wayland と Mir はサポートしていません)
 * OpenGL 4.1 以上が使えるグラフィクス系 (`glxinfo | grep version` を実行することで確かめられます)
 
 動作は PulseAudio, ALSA, X11 の入った Ubuntu 17.04 上で確認しています。
 
-## Quick start / 動作例
+## Quickstart / 動作例
 
 ```sh
 git clone https://github.com/nekketsuuu/opensiv3d-dockerfiles.git
@@ -72,9 +72,11 @@ If you want to run outside a container, you will need several libraries.
 ./docker-build.sh
 ```
 
+(Don't forget to build the `latest` tag, too / `latest` タグもビルドするのを忘れないように)
+
 You can publish your image via `docker push`. / `docker push` でイメージを配布できます。
 
 ```sh
 # If necessary, do `docker login`. / 必要なら `docker login` をする。
-docker push
+docker push <image tag>
 ```
