@@ -1,6 +1,6 @@
 ## OpenSiv3D on Docker
 
-[WIP] Dockerfiles for [OpenSiv3D](https://github.com/Siv3D/OpenSiv3D) on Linux
+Dockerfiles for [OpenSiv3D](https://github.com/Siv3D/OpenSiv3D) on Linux
 
 [日本語版 README はこちら](https://github.com/nekketsuuu/opensiv3d-dockerfiles/blob/master/README-ja.md)
 
@@ -52,7 +52,7 @@ cd /var/work/test
 If you want to run outside a container, you will need several libraries.
 
 * libSiv3D.a ... located at `/usr/local/lib/Siv3D.a` on the container
-* [Libraries which Siv3D needs](https://github.com/Siv3D/OpenSiv3D/tree/master/Linux)
+* [Libraries which are necessary for Siv3D](https://github.com/Siv3D/OpenSiv3D/tree/master/Linux)
 
 ## (For developers) Build Docker image
 

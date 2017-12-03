@@ -1,6 +1,6 @@
 ## OpenSiv3D on Docker
 
-[作業中] Linux on Docker で OpenSiv3D を動かす Dockerfile のレポジトリです。
+Linux on Docker で OpenSiv3D を動かす Dockerfile のレポジトリです。
 
 [English version of this README is here.](https://github.com/nekketsuuu/opensiv3d-dockerfiles/blob/master/README.md)
 
