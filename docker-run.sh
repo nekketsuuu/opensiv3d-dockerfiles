@@ -33,7 +33,6 @@ DOCKER_PRIVILEGED=false
 #     * Ref: http://wiki.ros.org/docker/Tutorials/Hardware%20Acceleration
 
 sound_options="\
-    --device /dev/snd \
     --env PULSE_SERVER=unix:${XDG_RUNTIME_DIR}/pulse/native \
     --group-add $(getent group audio | cut -d: -f3) \
     --volume ${XDG_RUNTIME_DIR}/pulse/native:${XDG_RUNTIME_DIR}/pulse/native \
